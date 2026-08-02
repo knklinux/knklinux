@@ -49,7 +49,7 @@ Aprendo ciberseguridad **construyendo mis propias herramientas** y documentando 
 ## 📬 Contacto
 
 * GitHub: [knklinux](https://github.com/knklinux)
-* Perfil profesional: [LinkedIn](https://www.linkedin.com/in/arkaitz) *(personalizar URL)*
+* Buscando mi primera oportunidad: junior pentester, analista de seguridad o SOC — disponible para remoto.
 
 ---
 
