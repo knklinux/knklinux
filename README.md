@@ -15,7 +15,8 @@ Aprendo ciberseguridad **construyendo mis propias herramientas** y documentando 
 
 | Proyecto | Descripción |
 |----------|-------------|
-| **[Aion Sincro](https://github.com/knklinux/aion-sincro)** ⭐ | Asistente de IA open-source, compañera de aprendizaje de pentesting y red team. 5 motores de IA gratuitos, voz (Piper local + Mistral Voxtral), informes profesionales (Markdown/PDF/Word), auditoría ISO 27001:2022, ruta guiada de red team con examen y certificación, cifrado WebCrypto y suite de seguridad con ~475 tests + pruebas de mutación. |
+| **[Aion Sincro](https://github.com/knklinux/aion-sincro)** ⭐ | Asistente de IA open-source, compañera de aprendizaje de pentesting y red team. 5 motores de IA gratuitos, voz (Piper local + Mistral Voxtral), informes profesionales (Markdown/PDF/Word), auditoría ISO 27001:2022, ruta guiada de red team con examen y certificación, cifrado WebCrypto y suite de seguridad con ~995 tests + pruebas de mutación. |
+| **[CERTO](https://github.com/knklinux/certo-demo)** 🏢 | Plataforma de auditoría de cumplimiento normativo multi-estándar: 10 normas (ISO 27001, 9001, 14001, ENS, RGPD…) con 192 controles, informes profesionales con hash SHA-256 de autenticidad y certificados verificables. [Demo en vivo](https://knklinux.github.io/certo-demo/). Proyecto comercial (consultoría ISO) — la vitrina pública es open-source. |
 | **[CyberGuard](https://github.com/knklinux/ciberguard)** | Toolkit CLI modular de seguridad en Python, cero dependencias: módulo ofensivo (nmap + searchsploit) y auditor de hardening (sysctl + sshd_config) con salida CI/CD-friendly. |
 
 > 🔭 Buscando mi **primera oportunidad** en ciberseguridad: junior pentester, analista de seguridad o SOC. Disponible para remoto.
