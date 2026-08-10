@@ -13,11 +13,13 @@ Aprendo ciberseguridad **construyendo mis propias herramientas** y documentando 
 
 ---
 
-## 🚀 Proyectos
+## 🚀 Proyectos destacados
+
+[![CYBERGRAD — Simulador de carrera SOC + Red Team](https://knklinux.github.io/cybergrad/assets/cover.jpg)](https://knklinux.github.io/cybergrad/)
 
 | Proyecto | Descripción |
 |----------|-------------|
-| **[CYBERGRAD](https://github.com/knklinux/cybergrad)** 🎮 | Simulador de carrera SOC + Red Team jugable online, construido como proyecto de aprendizaje: 6 casos blue team (phishing, BEC, ransomware, fuerza bruta, exfiltración DNS…) y 6 pentests ofensivos (nmap, hydra, sqlmap, Metasploit, Mimikatz) con progresión de analista junior a CISO y lecciones **MITRE ATT&CK**. **[Juega online](https://knklinux.github.io/cybergrad/)**. |
+| **[CYBERGRAD](https://github.com/knklinux/cybergrad)** 🎮 | Simulador de carrera SOC + Red Team **open-source** y jugable online: 6 casos blue team (phishing, BEC, ransomware, fuerza bruta, exfiltración DNS…) y 6 pentests ofensivos (nmap, hydra, sqlmap, Metasploit, Mimikatz) con progresión de analista junior a CISO y lecciones **MITRE ATT&CK**. **[Juega online](https://knklinux.github.io/cybergrad/)**. |
 | **[Aion Sincro](https://github.com/knklinux/aion-sincro)** ⭐ | Asistente de IA open-source para pentesting y red team: 5 motores de IA gratuitos, informes profesionales (Markdown/PDF/Word), auditoría ISO 27001:2022, ruta guiada de red team con examen y certificación, cifrado WebCrypto y suite de seguridad con ~995 tests + pruebas de mutación. |
 | **[CERTO](https://github.com/knklinux/certo-demo)** 🏢 | Plataforma de auditoría de cumplimiento normativo multi-estándar: 10 normas (ISO 27001, 9001, 14001, ENS, RGPD…) con 192 controles, informes profesionales con hash SHA-256 de autenticidad y certificados verificables. [Demo en vivo](https://knklinux.github.io/certo-demo/). Proyecto comercial (consultoría ISO) — la vitrina pública es open-source. |
 | **[CyberGuard](https://github.com/knklinux/ciberguard)** 🛡️ | Toolkit CLI modular de seguridad en Python, cero dependencias: módulo ofensivo (nmap + searchsploit) y auditor de hardening (sysctl + sshd_config) con salida CI/CD-friendly. |
@@ -26,38 +28,23 @@ Aprendo ciberseguridad **construyendo mis propias herramientas** y documentando 
 
 ---
 
-## 📋 Caso de estudio: CYBERGRAD — ciberseguridad aprendida construyendo
+## 🎯 Qué aporto
 
-CYBERGRAD es un **simulador de carrera SOC + Red Team** que empecé como proyecto de aprendizaje autodidacta (con ayuda de agentes de IA para el código, validando cada entrega con tests y CI). Para construirlo tuve que entender —y saber explicar— los ataques que simula: es mi forma de demostrar que lo que aprendo, lo aplico.
+Perfil **autodidacta y orientado a resultados**: no me limito a estudiar ciberseguridad — la **construyo, la pruebo y la documento** en proyectos open-source que cualquiera puede verificar. Mi forma de aprender es la que se espera de un junior con proyección: investigar un ataque real, modelarlo, defenderlo y saber explicarlo.
 
-### 🎯 Lo que demuestra para pentesting y análisis SOC
+- **Pentesting**: metodología completa de principio a fin (reconocimiento → acceso → escalada → exfiltración → informe), con las herramientas del día a día: `nmap`, `gobuster`, `nikto`, `hydra`, `sqlmap`, `Metasploit`, `Mimikatz`, `Burp Suite`.
+- **SOC / análisis de incidentes**: triaje, lectura de IOCs, phishing, BEC, ransomware, fuerza bruta y exfiltración por túnel DNS; informes de incidente con criterios objetivos de calificación (S+ a C).
+- **Seguridad de producto**: auditorías de fugas en código e historial git (encontré y purgué una filtración real de una ruta local del equipo), hardening (sysctl, sshd), CI con tests E2E y cumplimiento ISO 27001.
+- **Ingeniería**: Python, Bash y JavaScript; herramientas CLI sin dependencias; documentación profesional para que otros puedan continuar el trabajo.
 
-- **Metodología ofensiva real**: la campaña red team sigue el ciclo completo de un pentest — contrato → reconocimiento (`nmap`, `gobuster`, `nikto`) → acceso (`hydra`, `sqlmap`, `Metasploit`) → escalada y post-explotación (`Mimikatz`) → exfiltración → **informe ejecutivo**. Modelarlo con fidelidad exige entender cada fase y cada herramienta.
-- **Respuesta a incidentes**: la campaña SOC entrena triaje, lectura de indicadores (IOCs), phishing, BEC, ransomware, fuerza bruta y exfiltración por túnel DNS — el trabajo real de un analista de nivel 1 y 2.
-- **Estándares**: cada caso está mapeado a **MITRE ATT&CK**, y los informes se evalúan con **calificaciones objetivas (S+ a C)** según cobertura de indicadores, tiempo y errores — evaluar con criterio, no a ojo.
-- **Rigor de seguridad**: auditando el proyecto encontré y **purgué del historial git una ruta local del equipo filtrada** (blobs y mensajes de commit) con `filter-branch` + force-push, verificando el resultado en la API de GitHub. El juego va con **CI en verde en cada push** (sintaxis, lint y smoke test E2E).
+## 🧩 Qué demuestra cada proyecto
 
-### 📊 Métricas (todo en producción y verificado)
-
-| Métrica | Valor |
-|---------|-------|
-| Casos de incidentes blue team (SOC) | **6** — phishing, BEC, falso positivo, ransomware, fuerza bruta, exfiltración por túnel DNS |
-| Pentests red team | **6** — nmap/gobuster, hydra, sqlmap, Metasploit, Mimikatz, exfiltración |
-| Campañas jugables | **2** (blue team + red team) con progresión a CISO |
-| Prácticas guiadas de becario | **4** — paso a paso explicando el *porqué* de cada decisión |
-| Lecciones MITRE ATT&CK | 1 por caso, mapeando TTPs del ataque |
-| Logros e insignias | **17** — por rango, hitos y 1 huevo de pascua oculto |
-| Calidad | CI en verde: `node --check` (31 archivos), ESLint 0 errores, smoke test E2E con Playwright (cero errores de consola) |
-| Despliegue | GitHub Pages · sin backend · sin dependencias |
-
-### 🧠 Por qué me prepara para el puesto
-
-- **Pensamiento analítico**: cada caso es un ejercicio de investigación — leer evidencias, correlacionar indicadores y decidir bajo presión de SLA.
-- **Herramientas**: nmap, gobuster, nikto, hydra, sqlmap, Metasploit, Mimikatz — las mismas que uso en OverTheWire, TryHackMe y HackTheBox.
-- **Documentación profesional**: informes de incidente y de pentest ejecutivos, exportables (Markdown/JSON), con ratings y lecciones aprendidas.
-- **Cultura de calidad**: tests, CI, auditoría de seguridad e historial limpio — no solo "código que funciona en mi máquina".
-
-> 🔗 **Pruébalo tú mismo:** https://knklinux.github.io/cybergrad/ · Código: https://github.com/knklinux/cybergrad
+| Proyecto | Qué demuestra |
+|----------|---------------|
+| **CYBERGRAD** 🎮 | Metodología ofensiva y defensiva modelada con fidelidad: ciclo completo de pentest, triaje de incidentes, **MITRE ATT&CK**, calificación objetiva e informe ejecutivo. Proyecto de aprendizaje público y gratuito, jugable en el navegador. |
+| **Aion Sincro** ⭐ | Automatización de pentesting y red team con IA: informes profesionales (Markdown/PDF/Word), auditoría **ISO 27001:2022**, cifrado WebCrypto y una suite de seguridad con ~995 tests + pruebas de mutación. |
+| **CERTO** 🏢 | Producto comercial real de **cumplimiento normativo**: 10 normas, 192 controles, informes con **hash SHA-256** de autenticidad y certificados verificables. |
+| **CyberGuard** 🛡️ | Ingeniería de seguridad en **Python puro sin dependencias**: módulo ofensivo (nmap + searchsploit) y auditor de hardening con salida CI/CD-friendly. |
 
 ---
 
@@ -105,6 +92,7 @@ CYBERGRAD es un **simulador de carrera SOC + Red Team** que empecé como proyect
 
 ## 🎯 En camino
 
+* **eJPT** (eLearnSecurity Junior Penetration Tester) — en preparación.
 * Seguir construyendo herramientas open-source que demuestren con código lo que aprendo.
 
 ---
