@@ -36,7 +36,7 @@ No escribí cada línea: **especifiqué, revisé, rompí y redirigí**. El patr�
 
 1. **Especificar con visión** — *"un simulador de carrera SOC tipo videojuego, con terminales funcionales, se empieza de analista junior y se escala, 100% fiel a un entorno real"* → de esa frase salió un producto completo de 2 campañas.
 2. **Iterar con criterio** — cada mejora fue incremental y con propósito: SEO para el portfolio, campaña red team, modo becario para quien no ha tocado un SOC, guardado, logros, estadísticas, exportación, CI… 22 entregas en el historial, cada una verificada en navegador antes de publicar.
-3. **Exigir calidad y seguridad** — pedí auditorías de fugas en código y repo: encontré y **purgué una ruta local filtrada en el historial git** (`C:\Users\…` en blobs y mensajes de commit) con `filter-branch` + force-push, verificando el resultado en la API de GitHub.
+3. **Exigir calidad y seguridad** — pedí auditorías de fugas en código y repo: encontré y **purgué del historial git una ruta local del equipo filtrada** (presente en blobs y mensajes de commit) con `filter-branch` + force-push, verificando el resultado en la API de GitHub.
 4. **Pensar en el usuario final** — tutorial para novatos absolutos, modo laboratorio para equivocarse sin penalización, botón de compartir, tarjeta Open Graph bonita para LinkedIn y hasta un huevo de pascua.
 
 ### 📊 Métricas (todo en producción y verificado)
@@ -57,7 +57,7 @@ No escribí cada línea: **especifiqué, revisé, rompí y redirigí**. El patr�
 ### 🧠 Qué demuestra para un rol de entrenador de IA
 
 - **Saber dirigir agentes**: convertir una visión en especificaciones accionables y mantener el rumbo durante 20+ iteraciones sin perder el objetivo.
-- **Saber evaluar salida**: revisar cada cambio y detectar errores reales — encontré un bug de parseo (`de` por `of`) en el motor de logros, una filtración de ruta local en git y un CSS que rompía el banner ASCII — y hacer que se corrigieran con verificación.
+- **Saber evaluar salida**: revisar cada cambio y detectar errores reales — encontré un bug de parseo (`de` por `of`) en el motor de logros, una filtración de datos en el historial git y un CSS que rompía el banner ASCII — y hacer que se corrigieran con verificación.
 - **Saber iterar con el usuario en mente**: decidir qué construir, cuándo parar de añadir features y cómo hacer que un principiante aprenda sin frustrarse.
 - **Cultura de calidad**: CI, tests E2E, auditoría de seguridad, historial limpio y documentación — no solo "código que funciona en mi máquina".
 
