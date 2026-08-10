@@ -13,8 +13,11 @@ Aprendo ciberseguridad **construyendo mis propias herramientas** y documentando 
 
 ## 🚀 Proyectos destacados
 
+[![CYBERGRAD — Simulador de carrera SOC](https://knklinux.github.io/cybergrad/assets/cover.jpg)](https://knklinux.github.io/cybergrad/)
+
 | Proyecto | Descripción |
 |----------|-------------|
+| **[CYBERGRAD](https://github.com/knklinux/cybergrad)** 🎮 | Simulador de carrera SOC tipo videojuego, jugable online: 6 casos blue team (phishing, BEC, ransomware, fuerza bruta, exfiltración DNS…) + campaña red team de 6 pentests (nmap, hydra, sqlmap, Metasploit, Mimikatz), modo becario guiado paso a paso, progresión de analista junior a CISO y lecciones MITRE ATT&CK — con Jimmy, tu director de SOC sintético. **[Juega online](https://knklinux.github.io/cybergrad/)**. |
 | **[Aion Sincro](https://github.com/knklinux/aion-sincro)** ⭐ | Asistente de IA open-source, compañera de aprendizaje de pentesting y red team. 5 motores de IA gratuitos, voz (Piper local + Mistral Voxtral), informes profesionales (Markdown/PDF/Word), auditoría ISO 27001:2022, ruta guiada de red team con examen y certificación, cifrado WebCrypto y suite de seguridad con ~995 tests + pruebas de mutación. |
 | **[CERTO](https://github.com/knklinux/certo-demo)** 🏢 | Plataforma de auditoría de cumplimiento normativo multi-estándar: 10 normas (ISO 27001, 9001, 14001, ENS, RGPD…) con 192 controles, informes profesionales con hash SHA-256 de autenticidad y certificados verificables. [Demo en vivo](https://knklinux.github.io/certo-demo/). Proyecto comercial (consultoría ISO) — la vitrina pública es open-source. |
 | **[CyberGuard](https://github.com/knklinux/ciberguard)** | Toolkit CLI modular de seguridad en Python, cero dependencias: módulo ofensivo (nmap + searchsploit) y auditor de hardening (sysctl + sshd_config) con salida CI/CD-friendly. |
