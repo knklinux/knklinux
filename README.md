@@ -69,6 +69,18 @@ CYBERGRAD es un **simulador de carrera SOC + Red Team** que empecé como proyect
 
 ---
 
+## 📚 Certificaciones y formación en curso
+
+| Certificación / ruta | Estado | Orientada a |
+|----------------------|--------|-------------|
+| **eJPT** (eLearnSecurity Junior Penetration Tester) | 🚧 En preparación | Pentesting junior |
+| **TryHackMe — SOC Analyst Tier 1** | ✅ Completada | Analista SOC |
+| **TryHackMe — Pre-Security** | ✅ Completada | Fundamentos de seguridad |
+| **OverTheWire — Bandit** | 🔄 Nivel 27/34 | Linux y CLI |
+| **HackTheBox** | 🔄 En curso | Pentesting (máquinas Linux) |
+
+---
+
 ## 🛠️ Tech stack
 
 * **Sistemas:** Linux (KDE Neon, Linux Mint, Kali Linux).
@@ -79,9 +91,20 @@ CYBERGRAD es un **simulador de carrera SOC + Red Team** que empecé como proyect
 
 ---
 
+## 🧰 Skills por nivel
+
+| Área | Conceptual | Aplicado |
+|------|-----------|----------|
+| **Pentesting** | Metodología de pentest (reconocimiento → acceso → escalada → exfiltración → informe), OWASP Top 10, MITRE ATT&CK | `nmap`, `gobuster`, `nikto`, `hydra`, `sqlmap`, `Metasploit`, `Mimikatz`, `Burp Suite`, `netcat`, `curl` |
+| **SOC / analista** | Ciclo de vida del incidente, triaje, IOCs, phishing, BEC, ransomware, falsos positivos, MITRE ATT&CK | Análisis de logs, correlación de indicadores, terminal Linux (`grep`, `awk`, `find`), informes de incidentes |
+| **Redes y sistemas** | TCP/IP, DNS, HTTP(S), direccionamiento, autenticación | `ssh`, `openssl`, `netcat`, análisis de tráfico |
+
+*Aplicado = usado de forma práctica en laboratorios y en el simulador CYBERGRAD (nmap/hydra/sqlmap/Metasploit/Mimikatz con terminal funcional y casos MITRE ATT&CK).*
+
+---
+
 ## 🎯 En camino
 
-* **eJPT** (eLearnSecurity Junior Penetration Tester) — en preparación.
 * Seguir construyendo herramientas open-source que demuestren con código lo que aprendo.
 
 ---
