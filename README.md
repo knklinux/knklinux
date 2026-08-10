@@ -4,6 +4,8 @@
 
 Aprendo ciberseguridad **construyendo mis propias herramientas** y documentando cada hallazgo. Sin título universitario, pero con un portfolio real de proyectos open-source que lo demuestran.
 
+[![Estado](https://img.shields.io/badge/Estado-buscando%20trabajo%20%C2%B7%20remoto-brightgreen)](#)
+
 [![Linux](https://img.shields.io/badge/OS-Linux-9cf)](#)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](#)
 [![Bash](https://img.shields.io/badge/CLI-Bash-4e9a06)](#)
@@ -136,8 +138,11 @@ Perfil **autodidacta y orientado a resultados**: no me limito a estudiar ciberse
 
 ## 📬 Contacto
 
-* GitHub: [knklinux](https://github.com/knklinux)
-* Buscando mi primera oportunidad: junior pentester, analista de seguridad o SOC — disponible para remoto.
+* 🟢 **Estado:** buscando trabajo — disponible para **remoto**.
+* 💼 **LinkedIn:** [linkedin.com/in/TU-USUARIO](https://www.linkedin.com/in/TU-USUARIO)
+* ✉️ **Correo:** [TU-EMAIL](mailto:TU-EMAIL)
+* 🐙 **GitHub:** [knklinux](https://github.com/knklinux)
+* Buscando mi primera oportunidad: junior pentester, analista de seguridad o SOC.
 
 ---
 
