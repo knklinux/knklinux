@@ -138,9 +138,9 @@ Perfil **autodidacta y orientado a resultados**: no me limito a estudiar ciberse
 
 ## 📬 Contacto
 
-* 🟢 **Estado:** buscando trabajo — disponible para **remoto**.
-* 💼 **LinkedIn:** [linkedin.com/in/TU-USUARIO](https://www.linkedin.com/in/TU-USUARIO)
-* ✉️ **Correo:** [TU-EMAIL](mailto:TU-EMAIL)
+* 🟢 **Estado:** buscando trabajo — disponible para **remoto , hibrido y presencial**.
+* 💼 **LinkedIn:** (https://www.linkedin.com/in/arkaitz-cabezuelo-nu%C3%B1ez-1012b5427/)
+* ✉️ **Correo:**  (mailto:knklinux@gmail.com)
 * 🐙 **GitHub:** [knklinux](https://github.com/knklinux)
 * Buscando mi primera oportunidad: junior pentester, analista de seguridad o SOC.
 
