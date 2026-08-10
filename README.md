@@ -48,6 +48,43 @@ Perfil **autodidacta y orientado a resultados**: no me limito a estudiar ciberse
 
 ---
 
+## 🎯 Proyectos por rol
+
+*Qué proyecto demuestra cada habilidad que piden las ofertas junior — abres el repo y lo ves con tus propios ojos.*
+
+### 🔴 Ofertas junior de pentester
+
+| Habilidad pedida en la oferta | Proyecto que la demuestra |
+|------------------------------|---------------------------|
+| Metodología de pentest (recon → acceso → escalada → exfiltración → informe) | **CYBERGRAD** — campaña red team de 6 pentests con la fase completa modelada |
+| Herramientas ofensivas (`nmap`, `hydra`, `sqlmap`, `Metasploit`, `Mimikatz`) | **CYBERGRAD** — terminal funcional dentro del juego |
+| Reconocimiento (`gobuster`, `nikto`, OSINT) | **CYBERGRAD** + **Aion Sincro** (módulo OSINT) |
+| OWASP Top 10 / SQL injection | **CYBERGRAD** — caso sqlmap (SQLi explicada a fondo) |
+| MITRE ATT&CK | **CYBERGRAD** — lección en cada caso ofensivo |
+| Escalada de privilegios en Linux | **CYBERGRAD** (casos) + **CyberGuard** (hardening `sysctl`/`sshd`) |
+| Informes técnicos y ejecutivos | **Aion Sincro** (Markdown/PDF/Word) + **CYBERGRAD** (informe ejecutivo calificado) |
+| Automatización y scripting | **CyberGuard** (Python puro) + **Aion Sincro** (~995 tests) |
+| Cumplimiento y normas (ISO 27001) | **CERTO** + **Aion Sincro** (auditoría ISO 27001:2022) |
+
+### 🔵 Ofertas junior de SOC
+
+| Habilidad pedida en la oferta | Proyecto que la demuestra |
+|------------------------------|---------------------------|
+| Triaje y análisis de incidentes | **CYBERGRAD** — 6 casos blue team (phishing, BEC, ransomware, fuerza bruta, exfiltración DNS…) |
+| Lectura de IOCs e indicadores | **CYBERGRAD** — evidencias y pistas en cada caso |
+| Respuesta a incidentes (contención → erradicación → recuperación) | **CYBERGRAD** — modo becario guiado paso a paso (ransomware incluido) |
+| Phishing y BEC | **CYBERGRAD** — casos dedicados con análisis de cabeceras e IOCs |
+| Ransomware (por qué no se paga el rescate) | **CYBERGRAD** — práctica guiada de contención y copias de sombra |
+| Análisis de logs y correlación | **CYBERGRAD** + terminal Linux (`grep`, `awk`, `find`) |
+| MITRE ATT&CK | **CYBERGRAD** — mapeo por técnica en cada caso |
+| Documentación de incidentes | **CYBERGRAD** — informes con calificación objetiva (S+ a C) |
+| Hardening y posture | **CyberGuard** — auditor de hardening con salida CI/CD-friendly |
+| Falsos positivos | **CYBERGRAD** — triaje con pistas opcionales y evaluación |
+
+*Todo es verificable: repos públicos con CI en verde y el juego jugable online en [CYBERGRAD](https://knklinux.github.io/cybergrad/).*
+
+---
+
 ## 📈 Progreso y laboratorios
 
 * **OverTheWire (Bandit):** nivel 27 alcanzado — administración Linux CLI, filtrado de texto, permisos y criptografía básica.
