@@ -52,11 +52,11 @@ Perfil **autodidacta y orientado a resultados**: no me limito a estudiar ciberse
 
 ## 🎯 Proyectos por rol
 
-*Qué proyecto demuestra cada habilidad que piden las ofertas junior — abres el repo y lo ves con tus propios ojos.*
+*Qué proyecto demuestra cada habilidad  — abres el repo y lo ves con tus propios ojos.*
 
-### 🔴 Ofertas junior de pentester
+### 🔴 pentester
 
-| Habilidad pedida en la oferta | Proyecto que la demuestra |
+| Habilidad                    | Proyecto que la demuestra |
 |------------------------------|---------------------------|
 | Metodología de pentest (recon → acceso → escalada → exfiltración → informe) | **CYBERGRAD** — campaña red team de 6 pentests con la fase completa modelada |
 | Herramientas ofensivas (`nmap`, `hydra`, `sqlmap`, `Metasploit`, `Mimikatz`) | **CYBERGRAD** — terminal funcional dentro del juego |
@@ -70,7 +70,7 @@ Perfil **autodidacta y orientado a resultados**: no me limito a estudiar ciberse
 
 ### 🔵 Ofertas junior de SOC
 
-| Habilidad pedida en la oferta | Proyecto que la demuestra |
+| Habilidad                     | Proyecto que la demuestra |
 |------------------------------|---------------------------|
 | Triaje y análisis de incidentes | **CYBERGRAD** — 6 casos blue team (phishing, BEC, ransomware, fuerza bruta, exfiltración DNS…) |
 | Lectura de IOCs e indicadores | **CYBERGRAD** — evidencias y pistas en cada caso |
